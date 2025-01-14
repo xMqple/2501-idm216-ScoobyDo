@@ -11,4 +11,5 @@
   $args = array('type' => 'post', 'child_of' => 0, 'orderby' => 'name', 'order' => 'ASC', 'hide_empty' => 1, 'hierarchical' => 1, 'taxonomy' => $taxonomies, 'pad_counts' => true);
   $categories = get_categories($args);
 
+  echo 'maple';
 ?>
